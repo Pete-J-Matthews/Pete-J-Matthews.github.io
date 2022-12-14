@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pete's Portfolio</title>
+  <!-- Tab Icon -->
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+
+  <!-- Animate on scroll CDN-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Fontawsome CDN-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+
+  <!-- Custom CSS-->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Animate.css -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+  <link rel="stylesheet" href="./css/animate.min.css" />
+
+  <!-- Hamburger Icon Nav -->
+  <link rel="stylesheet" href="./css/hamburger.css">
+
+  <!-- Tipsy ToolTip-->
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+
+</head>
+
+<body>  
+  <header>
+    <div class="introduction full-height">
+      <nav class="navbar navbar-expand-lg navbar-light sticky" id="navbar">
+        <div class="container">
+          <div data-aos="fade-down" data-aos-delay="100">
+            <a class="navbar-brand" href="#" id="brand">Pete Matthews</a>
+          </div>
+
+          <button class="hamburger hamburger--collapse navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <div data-aos="fade-down" data-aos-delay="200">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">about</a>
+                </li>
+              </div>
+              <div data-aos="fade-down" data-aos-delay="400">
+                <li class="nav-item">
+                  <a class="nav-link" href="#featured-projects">projects</a>
+                </li>
+              </div>
+              <div data-aos="fade-down" data-aos-delay="500">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/Pete-J-Matthews" target="_blank">github</a>
+                </li>
+              </div>
+              <div data-aos="fade-down" data-aos-delay="600">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/pete-matthews/" target="_blank">linkedin 
+                    
+                    <span> <div class="nav-horizontal-line d-none d-sm-block" id="nav-horizontal-line"></div> </span>
+                  </a>
+                </li>
+              </div>         
+            </ul>
+             </div>
+          </div>
+      </nav>
+
+      <div class="introduction-message">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div data-aos="fade-down" data-aos-delay="1400">
+                <p style="
+                      font-size: 0.9rem;
+                      margin-bottom: 1rem;
+                      color: #000000cc;font-weight:500;text-transform: uppercase;letter-spacing: 0.8px;
+                    ">
+                  — Portfolio
+                </p>
+              </div>
+
+          <div class="title-wrapper">
+            <div data-aos="fade-down" data-aos-delay="1500">
+              <div class="display-4" style="font-weight: 400">
+                <span class="text-dark-blue">Hi</span>, my name is Pete,
+              </div>
+            </div>
+
+            <div data-aos="fade-down" data-aos-delay="1600">
+              <div class="display-4" style="font-weight: 400;">
+                <p>I'm a Software <span class="type"></span></p>
+              </div>
+            </div>
+          </div>
+
+              <div data-aos="fade-down" data-aos-delay="1700">
+                <p id="personal-quality" class="text-justify">
+                  I enjoy
+                  <span class="personal-quality-bold">solving</span> complex
+                  problems. I provide an
+                  <span class="personal-quality-bold">
+                    effective & efficient</span>
+
+                  solution. Nothing brings me more
+                  <span class="personal-quality-bold">excitement</span> and
+                  <span class="personal-quality-bold">motivation</span> than
+                  <span class="personal-quality-bold">building</span>
+                  something out of nothing.
+                </p>
+              </div>
+
+              <div data-aos="fade-down" data-aos-delay="1800">
+                <a href="./img/P.Matthews_CV.pdf" class="btn btn-dark mt-3" id="resume" target="_blank">
+                  <p style="padding-top: 5px">Resume</p>
+                </a>
+                <a href="#experience" class="btn btn-orange mt-3 ml-2">
+                  <p style="padding-top: 5px">Learn More</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <div data-aos="fade-up" data-aos-delay="2200">
+                <div class="introduction-img-wrapper">
+                  <img src="./img/absurd_lightbuld.gif" alt="intro-img" width="350" class="img-fluid ml-5"
+                    id="introduction-img" />
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="m-auto">
+               <img src="./img/mouse.png" width="25" alt="" class="img-fluid mx-auto" style="margin-top: -10rem;">
+            </div> -->
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <div class="project-type full-height">
+      <div class="container">
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <div class="title">
+            <h1>
+              I've worked with a wide range of technologies
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md col-6">
+            <div data-aos="fade-up" data-aos-duration="1200">
+              <div class="box box1">
+                <div class="numbers">
+                  1
+                </div>
+                <div class="box-title">
+                  Web Development
+                </div>
+                <div class="box-desc">
+                  I developed beautiful, fully responsive web applications.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-6">
+            <div data-aos="fade-up" data-aos-duration="1400">
+              <div class="box box2">
+                <div class="numbers">
+                  2
+                </div>
+                <div class="box-title">
+                  Mobile Development
+                </div>
+                <div class="box-desc">
+                  I developed beautiful, fully responsive mobile applications.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-6">
+            <div data-aos="fade-up" data-aos-duration="1800">
+              <div class="box box3">
+                <div class="numbers">
+                  3
+                </div>
+                <div class="box-title">
+                  Process Automation
+                </div>
+                <div class="box-desc">
+                  I create automation solutions to elimnate repetitive tasks.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-6">
+            <div data-aos="fade-up" data-aos-duration="2200">
+              <div class="box box4">
+                <div class="numbers">
+                  4
+                </div>
+                <div class="box-title">
+                  Machine Learning
+                </div>
+                <div class="box-desc">
+                  I used machine learning to boost business's productivity.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-6">
+            <div data-aos="fade-up" data-aos-duration="2600">
+              <div class="box box5">
+                <div class="numbers">
+                  5
+                </div>
+                <div class="box-title">
+                  Data Analysis
+                </div>
+                <div class="box-desc">
+                  I studied market trends and gained insights using data analytics. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="projects full-height" id="featured-projects">
+      <div class="container">
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <div class="ml9-paused">
+            <h1 class="letters-paused">
+              Things I've Developed —
+            </h1>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 3rem">
+          <div class="col-md-6">
+            <div data-aos="fade-up" data-aos-duration="1200">
+              <a href="http://www.pete-j-matthews.com/Search-Algorithm-Visualiser/" target="_blank">
+                <div class="projects-wrapper">
+                  <div class="browser-bar text-white">
+                    <div class="d-flex justify-content-end mr-3">
+                      <div class="p-0">
+                        <div class="circle circle-red"></div>
+                      </div>
+                      <div class="p-0">
+                        <div class="circle circle-orange"></div>
+                      </div>
+                      <div class="p-0">
+                        <div class="circle circle-green"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                    <img src="./img/search-algo.png" alt="university-analysis" class="img-fluid"  loading="lazy" />
+  
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 pl-5">
+            <div data-aos="fade-up" data-aos-duration="1200">
+              <h6 class="featured-title">project - 001</h6>
+              <h3>Search Algorithm Visualiser
+                <!-- <span style="font-size: 15px;font-weight:500" class="text-dark">(Apr. 2021- Apr. 2021)</span> -->
+              </h3>
+              <p class="text-justify">
+                A search visualisation tool used for demonstrating common search algorithms including:
+
+              <div class="d-flex flex-row bd-highlight mb-1">
+                <div class="bd-highlight">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="pl-2 bd-highlight">
+                  Breadth First Search
+                </div>
+              </div>
+              <div class="d-flex flex-row bd-highlight mb-1">
+                <div class="bd-highlight">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="pl-2 bd-highlight">Dijkstra's Algorithm</div>
+              </div>
+              <div class="d-flex flex-row bd-highlight mb-1">
+                <div class="bd-highlight">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="pl-2 bd-highlight">
+                  A* Search
+                </div>
+              </div>
+
+              <br />
+
+              <span class="badge-secondary badge badge-pill my-1">React</span>
+              <span class="badge-secondary badge badge-pill my-1">Node.JS</span>
+              <span class="badge-secondary badge badge-pill my-1">HTML/CSS</span>
+              <span class="badge-secondary badge badge-pill my-1">GitHub Pages</span>
+
+
+              <div class="d-flex justify-content-between mt-3">
+                <div class="p-2 bd-highlight">
+                  <a href="https://www.pete-j-matthews.com/Search-Algorithm-Visualiser/" target="_blank" style="font-size: 1rem !important" class="text-beet-red visit-link">
+                      Live Demo
+                      <i class="fas fa-angle-right"></i>
+                  </a>
+                </div>
+                <div class="p-2 bd-highlight" style="font-weight: 500">
+                  <a href="https://github.com/Pete-J-Matthews/Search-Algorithm-Visualiser" target="_blank">
+                    <p style="font-size: 1rem !important" class="text-beet-red visit-link">
+                      GitHub
+                      <i class="fas fa-angle-right"></i>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 3rem">
+          <div class="col-md-6">
+            <div data-aos="fade-up" data-aos-duration="1200">
+              <a href="http://www.pete-j-matthews.com/Sudoku-Solver/ target="_blank">
+                <div class="projects-wrapper">
+                  <div class="browser-bar text-white">
+                    <div class="d-flex justify-content-end mr-3">
+                      <div class="p-0">
+                        <div class="circle circle-red"></div>
+                      </div>
+                      <div class="p-0">
+                        <div class="circle circle-orange"></div>
+                      </div>
+                      <div class="p-0">
+                        <div class="circle circle-green"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                    <img src="./img/sudo-solv.png" alt="university-analysis" class="img-fluid"  loading="lazy" />
+  
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 pl-5">
+            <div data-aos="fade-up" data-aos-duration="1200">
+              <h6 class="featured-title">project - 002</h6>
+              <h3>Sudoku Solver
+                <!-- <span style="font-size: 15px;font-weight:500" class="text-dark">(Apr. 2021- Apr. 2021)</span> -->
+              </h3>
+              <p class="text-justify">
+                This is a sudoku solver that makes use of the backtracking algorithm. 
+
+              <div class="d-flex flex-row bd-highlight mb-1">
+                <div class="bd-highlight">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="pl-2 bd-highlight">
+                  Pencil in answers before confirming.
+                </div>
+              </div>
+              <div class="d-flex flex-row bd-highlight mb-1">
+                <div class="bd-highlight">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="pl-2 bd-highlight">Press spacebar to solve the puzzle.</div>
+              </div>
+              <div class="d-flex flex-row bd-highlight mb-1">
+                <div class="bd-highlight">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="pl-2 bd-highlight">
+                  Live site works best on chrome and can take up to 15s to solve. For optimal results and to watch algorithm in action, please follow the instructions on Hitub and install locally.
+                </div>
+              </div>
+
+              <br />
+
+              <span class="badge-secondary badge badge-pill my-1">Python</span>
+              <span class="badge-secondary badge badge-pill my-1">PyGame</span>
+              <span class="badge-secondary badge badge-pill my-1">Pygbag</span>
+              <span class="badge-secondary badge badge-pill my-1">HTML/CSS</span>
+              <span class="badge-secondary badge badge-pill my-1">GitHub Pages</span>
+
+
+              <div class="d-flex justify-content-between mt-3">
+                <div class="p-2 bd-highlight">
+                  <a href="http://www.pete-j-matthews.com/Sudoku-Solver/" target="_blank" style="font-size: 1rem !important" class="text-beet-red visit-link">
+                      Live Demo
+                      <i class="fas fa-angle-right"></i>
+                  </a>
+                </div>
+                <div class="p-2 bd-highlight" style="font-weight: 500">
+                  <a href="https://github.com/Pete-J-Matthews/Sudoku-Solver" target="_blank">
+                    <p style="font-size: 1rem !important" class="text-beet-red visit-link">
+                      GitHub
+                      <i class="fas fa-angle-right"></i>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 3rem">
+          <div class="col-md-6">
+            <div data-aos="fade-up" data-aos-duration="1200">
+              <a href="http://www.pete-j-matthews.com/Search-Algorithm-Visualiser/" target="_blank">
+                <div class="projects-wrapper">
+                  <div class="browser-bar text-white">
+                    <div class="d-flex justify-content-end mr-3">
+                      <div class="p-0">
+                        <div class="circle circle-red"></div>
+                      </div>
+                      <div class="p-0">
+                        <div class="circle circle-orange"></div>
+                      </div>
+                      <div class="p-0">
+                        <div class="circle circle-green"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                    <img src="./img/search-algo.png" alt="university-analysis" class="img-fluid"  loading="lazy" />
+  
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 pl-5">
+            <div data-aos="fade-up" data-aos-duration="1200">
+              <h6 class="featured-title">project - 001</h6>
+              <h3>Search Algorithm Visualiser
+                <!-- <span style="font-size: 15px;font-weight:500" class="text-dark">(Apr. 2021- Apr. 2021)</span> -->
+              </h3>
+              <p class="text-justify">
+                A search visualisation tool used for demonstrating common search algorithms including:
+
+              <div class="d-flex flex-row bd-highlight mb-1">
+                <div class="bd-highlight">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="pl-2 bd-highlight">
+                  Breadth First Search
+                </div>
+              </div>
+              <div class="d-flex flex-row bd-highlight mb-1">
+                <div class="bd-highlight">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="pl-2 bd-highlight">Dijkstra's Algorithm</div>
+              </div>
+              <div class="d-flex flex-row bd-highlight mb-1">
+                <div class="bd-highlight">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="pl-2 bd-highlight">
+                  A* Search
+                </div>
+              </div>
+
+              <br />
+
+              <span class="badge-secondary badge badge-pill my-1">React</span>
+              <span class="badge-secondary badge badge-pill my-1">Node.JS</span>
+              <span class="badge-secondary badge badge-pill my-1">HTML/CSS</span>
+              <span class="badge-secondary badge badge-pill my-1">GitHub Pages</span>
+
+
+              <div class="d-flex justify-content-between mt-3">
+                <div class="p-2 bd-highlight">
+                  <a href="https://www.pete-j-matthews.com/Search-Algorithm-Visualiser/" target="_blank" style="font-size: 1rem !important" class="text-beet-red visit-link">
+                      Live Demo
+                      <i class="fas fa-angle-right"></i>
+                  </a>
+                </div>
+                <div class="p-2 bd-highlight" style="font-weight: 500">
+                  <a href="https://github.com/Pete-J-Matthews/Search-Algorithm-Visualiser" target="_blank">
+                    <p style="font-size: 1rem !important" class="text-beet-red visit-link">
+                      GitHub
+                      <i class="fas fa-angle-right"></i>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        
+    <div class="other-projects">
+      <div class="container">
+        <div class="text-center">
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <div class="ml2-paused">
+              <h1 class="text-white letters-paused" style="line-height: 55px; font-weight: 400; font-size: 45px">
+                Other Projects
+              </h1>
+            </div>
+
+            <div class="visit-link text-beet-red" data-toggle="modal" data-target="#archive-modal" style="width:8.5rem;margin:auto">
+              view the archive
+            </div>
+          </div>
+    <div class="row" style="margin-top: 5rem">
+    <div class="about-me-2" id="about">
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div data-aos="zoom-in" data-aos-duration="800">
+                <div class="title">
+                  Get to know a <br />
+                  bit about <br />
+                  me.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="boxes-wrapper">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                      <div class="box" style="margin-top: 10vh">
+                        <div class="box-title">Education</div>
+                        <div class="box-description">
+                          <span id="about-smu"
+                            >Sheffield Hallam University &#9432;</span
+                          >
+                          <br />
+                          <span id="about-nyp">Mechanical Engineering &#9432;</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1600">
+                      <div class="box">
+                        <div class="box-title">Technologies</div>
+                        <div class="box-description text-left">
+                          <span class="badge-secondary badge badge-pill my-1"
+                            >Python</span
+                          >
+                          <span class="badge-secondary badge badge-pill my-1"
+                            >Javascript</span
+                          >
+                          <span class="badge-secondary badge badge-pill my-1"
+                            >HTML</span
+                          >
+                          <span class="badge-secondary badge badge-pill my-1"
+                            >CSS</span
+                          >
+                          <span class="badge-secondary badge badge-pill my-1"
+                            >Git</span
+                          >
+                          <span class="badge-secondary badge badge-pill my-1"
+                          >GitHub</span
+                          >
+                          <span class="badge-secondary badge badge-pill my-1"
+                            >SQL</span
+                          >
+                          <span class="badge-secondary badge badge-pill my-1"
+                            >React</span
+                          >
+                          <span class="badge-secondary badge badge-pill my-1"
+                            >Node.JS</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                      <div class="box">
+                        <div class="box-title">Hobbies</div>
+                        <div class="box-description">
+                          <p>
+                            Coding <br />
+                            Football <br />
+                            Rugby <br />
+                            Hiking
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                      <div class="box">
+                        <div class="box-title">Social Links</div>
+                        <div class="box-description">
+                          <p>
+                            <a href="https://www.linkedin.com/in/pete-matthews/" target="_blank" class="text-beet-red visit-link"
+                              style="text-decoration: none;">LinkedIn</a>
+                              <br>
+                            <a href="https://github.com/Pete-J-Matthews" target="_blank" class="text-beet-red visit-link"
+                              style="text-decoration: none;">GitHub</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div data-aos="fade-up" data-aos-duration="2000">
+    <div class="connect" id="connect">
+      <div class="container">
+        <div class="row">
+            <div data-aos="zoom-out-right" data-aos-duration="2000">
+              <div class="title">Get In Touch</div> <br><br/>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="2600">
+              <a
+                href="mailto:pete.j.matt@gmail.com"
+                target="_blank"
+                class="contact-say-hello"
+              >
+                Say Hello! <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <class class="col-md-8 mt-2 text-white" style="font-weight: 300">
+              <div class="copyright-footer">
+                Copyright &#169; 2020-<span id="copyright"></span> Pete
+                Matthews
+              </div>
+            </class>
+            <div class="col-md-4 mt-2">
+              <div class="d-flex justify-content-center">
+                <div class="px-4 bd-highlight">
+                  <a
+                    class="footer-link text-beet-red"
+                    href="https://github.com/Pete-J-Matthews"
+                    target="_blank"
+                    >github</a
+                  >
+                </div>
+                <div class="px-4 bd-highlight">
+                  <a
+                    class="footer-link text-beet-red"
+                    href="https://www.linkedin.com/in/pete-matthews/"
+                    target="_blank"
+                    >linkedin</a
+                  >
+                </div>
+                <div class="px-4 bd-highlight">
+                  <a
+                    href="mailto:pete.j.matt@gmail.com"
+                    target="_blank"
+                    class="footer-link text-beet-red"
+                  >
+                    email
+                  </a>
+                </div>
+                <div class="px-4 bd-highlight">
+                  <a href="#" class="footer-link text-beet-red"> top </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+<!-- Introduction Modal -->
+<div class="introduction-modal">
+  <div class="modal " id="introduction-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered modal-lg rounded-0" role="document" style="transform: translate(0);">
+      <div class="modal-content" style="overflow-y: hidden;">
+        <div class="modal-header pb-0 pt-4">
+          <h5 class="modal-title mx-auto" id="exampleModalLongTitle">
+            <i class="fas fa-headphones-alt"></i>
+          </h5>
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+        </div>
+        <div class="modal-footer justify-content-center">
+          <!-- <a class="btn-enter" data-dismiss="modal" style="cursor: pointer;">
+            Enter
+          </a> -->
+          <div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
+          </div>
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="side-email d-none d-sm-block">
+  <div class="d-flex flex-column bd-highlight">
+    <div class="bd-highlight text-center mb-4">
+      <a href="mailto:pete.j.matt@gmail.com" target="_blank"  class="email hvr-bob" id="side-email">
+        pete.j.matt@gmail.com
+      </a>
+    </div>
+    <div class="bd-highlight text-center justify-content-center">
+      <div class="vertical-line" id="vertical-line"></div>
+    </div>
+  </div>
+</div>
+
+  <a href="#" class="scrollToTop d-none d-sm-block"></a>
+
+  <div class="side-social-links d-none d-sm-block">
+    <div class="d-flex flex-column bd-highlight mb-3">
+      <div class="p-1 bd-highlight text-center">
+        <a href="mailto:pete.j.matt@gmail.com" target="_blank" class="side-social-link" id="side-nav-email" style="-webkit-text-stroke: 0px white;">
+          <i class="far fa-paper-plane"></i>      
+        </div>
+      <div class="p-1 bd-highlight text-center">
+        <a href="https://github.com/Pete-J-Matthews" target="_blank" class="side-social-link" id="side-nav-github">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>        </a>
+        </a>
+      </div>
+      <div class="p-1 bd-highlight text-center">
+        <a href="https://www.linkedin.com/in/pete-matthews/" target="_blank" class="side-social-link" id="side-nav-linkedin">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+         </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- TweenMax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+  <script src="./js/hover-effect.umd.js"></script>
+
+  
+  <!-- Tipsy ToolTip-->
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  
+  <!-- animate.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  
+  <!-- Type.js-->
+  <script src=" ./js/typed.js"></script>
+  
+  <!-- Animate on scroll Script-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="./js/index.js"></script>
+  <script src="./js/anime.js"></script>
+  
+</body>
+
+</html>
