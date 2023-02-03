@@ -1,0 +1,79 @@
+.head-img{
+    margin-left: 3rem;
+}
+.footer-banner{
+    margin: 0 6rem;
+}
+.footer-text div{
+    margin: auto;
+}
+@media screen and (max-width: 450px) {
+    .head-img{
+        margin-left: 0rem;
+    }
+    .project-type .box{
+        text-align: center;
+    }
+    .socials{
+        flex-direction: column;
+    }
+    footer .container .row{
+        text-align: left;
+    }
+    .tech-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .row .pl-5{
+        padding-left: 15px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .introduction-message{
+        margin-top: 8rem;
+    }
+    .about-me-2 .res-wrapper{
+        height: auto;
+        padding: 2rem 0;
+    }
+    .about-me-2 .boxes-wrapper{
+        transform: initial;
+    }
+    .about-me-2 .title{
+        transform: initial;
+    }
+    .row .about-me-2{
+        padding-bottom: 0;
+    }
+    .container .footer-banner{
+        padding: 0;
+    }
+    .project-type.full-height{
+        padding-bottom: 0;
+    }
+    
+    .footer-text{
+        text-align: center;
+    }
+    footer .container{
+        text-align: center;
+    }
+    .footer-banner{
+        margin: 0;
+    }
+    .featured-title{
+        margin: 1rem 0;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .footer-text div .title{
+        font-size: 4rem;
+        letter-spacing: 0px;
+    }
+    .footer-text div .contact-say-hello{
+        font-size: 4rem;
+        letter-spacing: 0px;
+    }   
+}

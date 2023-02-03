@@ -32,6 +32,9 @@
   <!-- Tipsy ToolTip-->
   <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
 
+  <!-- New Changes-->
+  <link rel="stylesheet" href="./css/new-style.css">
+
 </head>
 
 <body>  
@@ -135,7 +138,7 @@
             <div class="col-md-5">
               <div data-aos="fade-up" data-aos-delay="2200">
                 <div class="introduction-img-wrapper">
-                  <img src="./img/absurd_lightbuld.gif" alt="intro-img" width="350" class="img-fluid ml-5"
+                  <img src="./img/absurd_lightbuld.gif" alt="intro-img" width="350" class="img-fluid head-img"
                     id="introduction-img" />
                 </div>
               </div>
@@ -161,7 +164,7 @@
             </h1>
           </div>
         </div>
-        <div class="row">
+        <div class="row tech-row">
           <div class="col-md col-6">
             <div data-aos="fade-up" data-aos-duration="1200">
               <div class="box box1">
@@ -505,7 +508,7 @@
           </div>
     <div class="row" style="margin-top: 5rem">
     <div class="about-me-2" id="about">
-      <div class="wrapper">
+      <div class="wrapper res-wrapper">
         <div class="container">
           <div class="row">
             <div class="col-md-5">
@@ -605,73 +608,7 @@
       </div>
     </div>
 
-  <div data-aos="fade-up" data-aos-duration="2000">
-    <div class="connect" id="connect">
-      <div class="container">
-        <div class="row">
-            <div data-aos="zoom-out-right" data-aos-duration="2000">
-              <div class="title">Get In Touch</div> <br><br/>
-            </div>
-
-            <div data-aos="fade-up" data-aos-duration="2600">
-              <a
-                href="mailto:pete.j.matt@gmail.com"
-                target="_blank"
-                class="contact-say-hello"
-              >
-                Say Hello! <i class="fas fa-arrow-right"></i>
-              </a>
-            </div>
-        </div>
-      </div>
-
-      <footer>
-        <div class="container">
-          <div class="row">
-            <class class="col-md-8 mt-2 text-white" style="font-weight: 300">
-              <div class="copyright-footer">
-                Copyright &#169; 2020-<span id="copyright"></span> Pete
-                Matthews
-              </div>
-            </class>
-            <div class="col-md-4 mt-2">
-              <div class="d-flex justify-content-center">
-                <div class="px-4 bd-highlight">
-                  <a
-                    class="footer-link text-beet-red"
-                    href="https://github.com/Pete-J-Matthews"
-                    target="_blank"
-                    >github</a
-                  >
-                </div>
-                <div class="px-4 bd-highlight">
-                  <a
-                    class="footer-link text-beet-red"
-                    href="https://www.linkedin.com/in/pete-matthews/"
-                    target="_blank"
-                    >linkedin</a
-                  >
-                </div>
-                <div class="px-4 bd-highlight">
-                  <a
-                    href="mailto:pete.j.matt@gmail.com"
-                    target="_blank"
-                    class="footer-link text-beet-red"
-                  >
-                    email
-                  </a>
-                </div>
-                <div class="px-4 bd-highlight">
-                  <a href="#" class="footer-link text-beet-red"> top </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-  </div>
-
+ 
 <!-- Introduction Modal -->
 <div class="introduction-modal">
   <div class="modal " id="introduction-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
@@ -732,6 +669,87 @@
       </div>
     </div>
   </div>
+
+
+  <!-- missing div endings -->
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer moved  out of full body container-->
+  <div data-aos="fade-up" data-aos-duration="2000" class="footer-banner">
+    <div class="connect" id="connect">
+      <div class="container">
+        <div class="row footer-text">
+            <div data-aos="zoom-out-right" data-aos-duration="2000">
+              <div class="title">Get In Touch</div> <br><br/>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="2600">
+              <a
+                href="mailto:pete.j.matt@gmail.com"
+                target="_blank"
+                class="contact-say-hello"
+              >
+                Say Hello! <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <class class="col-md-8 mt-2 text-white" style="font-weight: 300">
+              <div class="copyright-footer">
+                Copyright &#169; 2020-<span id="copyright"></span> Pete
+                Matthews
+              </div>
+            </class>
+            <div class="col-md-4 mt-2">
+              <div class="d-flex justify-content-center socials">
+                <div class="px-4 bd-highlight">
+                  <a
+                    class="footer-link text-beet-red"
+                    href="https://github.com/Pete-J-Matthews"
+                    target="_blank"
+                    >github</a
+                  >
+                </div>
+                <div class="px-4 bd-highlight">
+                  <a
+                    class="footer-link text-beet-red"
+                    href="https://www.linkedin.com/in/pete-matthews/"
+                    target="_blank"
+                    >linkedin</a
+                  >
+                </div>
+                <div class="px-4 bd-highlight">
+                  <a
+                    href="mailto:pete.j.matt@gmail.com"
+                    target="_blank"
+                    class="footer-link text-beet-red"
+                  >
+                    email
+                  </a>
+                </div>
+                <div class="px-4 bd-highlight">
+                  <a href="#" class="footer-link text-beet-red"> top </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+</div>
 
   <!-- Three.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
