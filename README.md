@@ -3,7 +3,7 @@ Portfolio Website
 
 Description
 -----------
-This repository contains the source code for Pete J Matthews' personal website, which is built using HTML, CSS, and JavaScript. The website is hosted on GitHub Pages and I've **[written a blog](https://medium.com/@pete.j.matt/how-to-host-a-website-on-github-pages)** on how to do this yourself.
+This repository contains the source code for my personal website, which is built using HTML, CSS, and JavaScript. The website is hosted on GitHub Pages and I've **[written a blog](https://medium.com/@pete.j.matt/how-to-host-a-website-on-github-pages)** on how to do this yourself.
 
 Getting Started
 ---------------
@@ -18,7 +18,7 @@ To view the website, simply open the index.html file in a web browser or **[clic
 
 Authors
 -------
-- Pete J Matthews
+- Pete Matthews
 
 Version History
 ---------------
