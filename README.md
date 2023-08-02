@@ -3,7 +3,7 @@ Portfolio Website
 
 Description
 -----------
-This repository contains the source code for my personal website, which is built using HTML, CSS, and JavaScript. The website is hosted on GitHub Pages and I've **[written a blog](https://medium.com/@pete.j.matt/how-to-host-a-website-on-github-pages)** on how yuo can do this yourself.
+This repository contains the source code for my personal website, which is built using HTML, CSS, and JavaScript. The website is hosted on GitHub Pages and I've **[written a blog](https://medium.com/@pete.j.matt/how-to-host-a-website-on-github-pages)** on how you can do this yourself.
 
 Getting Started
 ---------------
