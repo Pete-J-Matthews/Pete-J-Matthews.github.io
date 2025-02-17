@@ -17,7 +17,7 @@ $("#archive-modal").on("show.bs.modal", function (e) {
 // ========================== TYPE.JS ==========================
 // strings: [ 'Data Analyst.', 'Web Developer.', 'Mobile Developer.', 'RPA Developer.', 'UI/UX Designer.' ]
 var typed = new Typed(".type", {
-  strings: ["an Engineer.","a Developer.","a Programmer.", "an Analyst."],
+  strings: ["an Engineer.","a Developer.","a Programmer."],
   typeSpeed: 50,
   backSpeed: 50,
   loop: true,
